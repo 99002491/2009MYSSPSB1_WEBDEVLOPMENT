@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/home-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Get,Set,Blog..!</h1>
+              <span class="subheading">Blog Started by the VSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <a href="\post">
+              <h2 class="post-title">
+                What are a few examples of small, good tech blogs?
+              </h2>
+              <h3 class="post-subtitle">
+                It’s hard to remember a world without blogs. Originally a sort of online journal full of mundane personal updates, web logs have morphed into an extremely powerful form of communication. They were once shunned by the mainstream — now they are the mainstream.
+              </h3>
+            </a>
+            <p class="post-meta">Posted by Sriniketan
+              <a href="#"></a>
+              on September 18, 2020</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="\post1">
+              <h2 class="post-title">
+                What are some good technology or programming blogs?
+              </h2>
+              <h3 class="post-subtitle">
+                Daniel Slater mentioned two very good resources. however, the word "blog" narrows this down dangerously to eliminate quite a number of resources.
+              </h3>
+            </a>
+            <p class="post-meta">Posted by Vidyashree
+              <a href="#"></a>
+              on September 18, 2020</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="\post2">
+              <h2 class="post-title">
+                Which programming language should I use for my blog?
+              </h2>
+              <h3 class="post-subtitle">
+                You can create your own blog without any knowledge of programming languages, check out Wodpress.com. But if you really want to get your hands dirty, you can learn Ruby or PHP.
+              </h3>
+            </a>
+            <p class="post-meta">Posted by MD Sohel
+              <a href="#">on September 18, 2020</a>
+              on August 24, 2020</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="\post3">
+              <h2 class="post-title">
+                Failure is not an option
+              </h2>
+              <h3 class="post-subtitle">
+                Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+              </h3>
+            </a>
+            <p class="post-meta">Posted by Vidyashree
+              <a href="#">on September 18, 2020</a>
+              on July 8, 2020</p>
+          </div>
+          <hr>
+          <div class="clearfix">
+            <!-- <a class="btn btn-primary float-right" href="#">Older Posts →</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
