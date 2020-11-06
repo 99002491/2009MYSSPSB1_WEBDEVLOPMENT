@@ -1,0 +1,11 @@
+{
+    "params":
+    {
+        "local_server":"True",
+        "local_uri":"mysql+pymysql://root:@localhost/myblog",
+        "prod_uri":"mysql+pymysql://root:@localhost/myblog",
+        "fb_url":"https://facebook.com",
+        "tw_url":"https://twitter.com",
+        "gh_url":"https://github.com"
+    }
+}
