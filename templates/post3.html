@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/post-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Failure Is Not an Option
+              </h1>
+              <span class="subheading">-Vidyashree</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>In preparation for the movie, the script writers, Al Reinert and Bill Broyles, came down to Clear Lake to interview me on "What are the people in Mission Control really like?" One of their questions was "Weren't there times when everybody, or at least a few people, just panicked?" My answer was "No, when bad things happened, we just calmly laid out all the options, and failure was not one of them." ... I immediately sensed that Bill Broyles wanted to leave and assumed that he was bored with the interview. Only months later did I learn that when they got in their car to leave, he started screaming, "That's it! That's the tag line for the whole movie, Failure is not an option.
+            </p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}

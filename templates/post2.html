@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/post-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Which programming language should I use for my blog?
+              </h1>
+              <span class="subheading">-MD Sohel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>You can create your own blog without any knowledge of programming languages, check out Wodpress.com. But if you really want to get your hands dirty, you can learn Ruby or PHP. PHP blog packages are a lot more ubiquitous but I think PHP is a declining language and not as nice as Ruby or node.js. So I don’t know that I’d recommend you learn it unless you want to dedicate yourself to dynamic website creation.
+
+            Don’t ge me wrong, PHP is still very widely used, but node.js (and similar) seem to be taking over its territory, where it was once king.
+            
+            Ruby is a much nicer language, but doesn’t have as many blog packages as PHP does.
+            </p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}
