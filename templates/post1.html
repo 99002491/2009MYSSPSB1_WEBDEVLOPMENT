@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/post-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>What are some good tech/programming blogs?
+              </h1>
+              <span class="subheading">-Vidyashree</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Daniel Slater mentioned two very good resources. however, the word "blog" narrows this down dangerously to eliminate quite a number of resources.
+
+            Some very good places where Techs(Programmers and DevOps) learn how stuff works, challenge themselves and become near experts almost instantly are:
+            1. DigitalOcean Community
+            2. Stack Overflow
+            3. High Scalability 
+            4. Project Euler
+            </p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}
